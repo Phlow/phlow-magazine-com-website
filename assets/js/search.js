@@ -13,7 +13,7 @@
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>I'm afraid we didn't find anything. Mistyped?</li>';
+      searchResults.innerHTML = '<li>Leider nichts gefunden. Vertippt?</li>';
     }
   }
 

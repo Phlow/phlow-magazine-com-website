@@ -379,6 +379,7 @@ a.button:hover {
 - Lines
 - Icons
 - Article Specific Elements
+- Search
 
 --- */
 /* Basic styling
@@ -583,6 +584,15 @@ hr {
   font-size: 2.027em;
   letter-spacing: -1px;
   line-height: 1; }
+
+/* Search
+---------------------------------------------------------- */
+#search-results li {
+  padding-bottom: 1em;
+  font-size: .85em; }
+
+#search-results li a {
+  font-size: 1.15em; }
 
 .site-title {
   font-size: 26px;
