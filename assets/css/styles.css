@@ -204,9 +204,6 @@ the padding will be perfect.
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
 
-@media (max-width: 480px) {
-  .grid {
-    display: block; } }
 /* Card
 -------------------------------------------------------- */
 .card h2 {
@@ -786,7 +783,14 @@ hr {
     font-size: 16px; }
 
   .post-meta {
-    width: 100%; } }
+    width: 100%; }
+
+  .grid {
+    display: block; }
+
+  .grid .card {
+    display: block;
+    margin-bottom: 1em; } }
 /* DESKTOP
 -------------------------------------------------------- */
 @media only screen and (min-width: 481px) {
